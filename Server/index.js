@@ -13,7 +13,7 @@ const bodyParser = require("body-parser");
 
 app.listen(PORT, () => console.log(`server is running on port ${PORT}`));
 const corsOption = {
-  origin: "https://spiffy-capybara-b8f733.netlify.app",
+  origin: "https://thriving-bunny-65d21f.netlify.app",
   credentials: true,
 };
 app.use(cors(corsOption));
